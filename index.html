@@ -22,7 +22,7 @@
         .container {
             max-width: 800px;
             width: 90%;
-            padding: 50px 0;
+            padding: 60px 0;
         }
 
         /* 로고 영역 */
@@ -30,16 +30,17 @@
             margin-bottom: 40px;
         }
         .logo img {
-            max-width: 300px;
+            max-width: 280px;
             height: auto;
         }
 
         /* 소개 텍스트 영역 */
         .intro-text {
             font-size: 16px;
-            line-height: 1.8;
+            line-height: 1.9;
             margin-bottom: 50px;
             font-weight: 400;
+            color: #222;
         }
 
         /* 게임 메인 이미지 영역 */
@@ -50,15 +51,18 @@
             width: 100%;
             max-width: 700px;
             height: auto;
-            border-radius: 4px;
+            border-radius: 2px;
+            /* 이미지 선명도를 위해 추가 */
+            image-rendering: -webkit-optimize-contrast; 
         }
 
         /* 하단 상세 텍스트 영역 */
         .details-text {
             font-size: 15px;
             line-height: 1.8;
-            margin-bottom: 60px;
+            margin-bottom: 70px;
             font-weight: 400;
+            color: #222;
         }
 
         /* 강조 텍스트 스타일 */
@@ -70,15 +74,16 @@
         /* 푸터 영역 */
         footer {
             font-size: 12px;
-            color: #888888;
+            color: #999999;
             margin-top: 20px;
+            letter-spacing: 0.5px;
         }
 
         /* 모바일 대응 */
         @media (max-width: 600px) {
-            .intro-text, .details-text {
-                font-size: 14px;
-            }
+            .intro-text { font-size: 14px; }
+            .details-text { font-size: 13px; }
+            .logo img { max-width: 200px; }
         }
     </style>
 </head>
@@ -86,7 +91,7 @@
 
     <div class="container">
         <div class="logo">
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRkNEpS5RHuFRk825nR3lJSZKXq0lKB2uXLF1iadYpYwx6EbcLwkSCBhg0LzwJKMUQ7va_ey1po_SVQ__N2URy-cUUvh1Y3Krg_00J4EY0RON9VLczgOROHnsIDjuG9uarGAi6Tfh7AJ2GdFl4jVG1t2Kp-azWD0gyuW-oFdPsFrhzreZZethjcfhPytBqJ9moiRn-ZvDZZiKN8GlJgPeM9Ej9zxqKgr8bv=w1280" alt="FINGER GAMES LOGO">
+            <img src="https://github.com/studio-fingergames/fingergames/blob/main/FINGERGAMES_logo.png?raw=true" alt="FINGER GAMES LOGO">
         </div>
 
         <div class="intro-text">
@@ -98,7 +103,7 @@
         </div>
 
         <div class="game-banner">
-            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSSRCZXyrFfoVBv13Rti5ZpInzSjb3wH3F7_WDWKEfZFXBGC9Nw1stwANeeI5C_HPXSfTKMuzHt6Cf-nvDi6CntWdEkOYMzllbqucHcGZdlvM1h7NRxzi2prNlYOfMZ23LLrZFDIsJ0ncguqUwPaqBA9QzHxkXHQFPGpYMLZjjGsv-w8xeMIcAimwCwhF1a9N4fOgGK1Lvzv9KQ2-av8qR-99Y09NS6JLyW=w1280" alt="BOOSTER UP GAME IMAGE">
+            <img src="https://github.com/studio-fingergames/fingergames/blob/main/boosterup.png?raw=true" alt="BOOSTER UP GAME IMAGE">
         </div>
 
         <div class="details-text">
